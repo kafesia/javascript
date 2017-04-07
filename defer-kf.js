@@ -1,11 +1,3 @@
-/*! buttons v1.1.4 - 2016-05-01 | Copyright (c) 2016 Adam Bouqdib (http://abemedia.co.uk) | donreach.com/license */
- (function() {
-    var dr = document.createElement('script');
-    dr.type = 'text/javascript'; dr.async = true;
-    dr.src = '//share.donreach.com/buttons.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dr);
-  })();
-
 /* By Osvaldas Valutis, www.osvaldas.info   Available for use under the MIT License */
 ;
 (function(e, t, n, r) {
@@ -395,8 +387,6 @@ $(function() {
 
 });
 
-/* Howbloggerz.blogspot.com */
-
 var imgDefer = document.getElementsByTagName('img'); for (var i=0; i<imgDefer.length; i++) { if(imgDefer[i].getAttribute('data-src')) { imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src')); } }
 
 var vidDefer = document.getElementsByTagName('iframe');
@@ -404,11 +394,3 @@ for (var i=0; i<vidDefer.length; i++) {
 if(vidDefer[i].getAttribute('data-src')) {
 vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
 }}
-
-(function(d, s, id) {
-var js, fjs = d.getElementsByTagName(s)[0];
-if (d.getElementById(id)) return;
-js = d.createElement(s); js.id = id;
-js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
